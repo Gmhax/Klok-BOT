@@ -83,48 +83,16 @@ klokapp-automation/
      ```
    - Paste your API key and save the file.
 
+## - Create session
+```sh
+     screen -S Klok
+```
+
 6️⃣ Run the application:
    ```sh
    npm run start
    ```
 
-### 🔹 Windows
-
-1️⃣ Open **PowerShell** and run:
-   ```powershell
-   git clone https://github.com/rpchubs/Klok-BOT.git
-   cd Klok-BOT
-   ```
-
-2️⃣ Install dependencies:
-   ```powershell
-   npm install
-   ```
-
-3️⃣ Configure **Proxy**:
-   - Open `proxies.txt` and add your proxy in the format:
-     ```sh
-     http://username:password@ip:port
-     ```
-   - Example:
-     ```sh
-     http://user123:pass456@192.168.1.1:8080
-     ```
-   - If `proxies.txt` is empty or missing, the application will use your default system IP.
-
-4️⃣ Configure **Session Token**:
-   - Open `session-token.key` with Notepad++ and paste your **session_token**.
-   - Save and close the file.
-
-5️⃣ Register for **Groq API Key**:
-   - Visit [Groq Console](https://console.groq.com/login) and create an account.
-   - Open `groq-api.key` with Notepad++ and paste your **Groq API KEY**.
-   - Copy your **API key** and save it in `groq-api.key`.
-
-6️⃣ Start the application:
-   ```powershell
-   npm run start
-   ```
 
 ---
 
