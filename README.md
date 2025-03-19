@@ -92,7 +92,8 @@ klokapp-automation/
    ```sh
    npm run start
    ```
-
+## - Detach session
+PRESS: CTRL A+D
 
 ---
 
